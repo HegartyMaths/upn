@@ -21,3 +21,15 @@ describe('Validating UPNs', () => {
     expect(() => upn.validate({})).toThrowError(TypeError);
   });
 });
+
+describe('Generating UPNs', () => {
+  beforeEach(() => {
+    upn = new UPN();
+  });
+
+  it('should generate valid UPNs', () => {
+    const generatedUPN = upn.generate();
+
+    expect(upn.validate(generatedUPN)).toEqual(true);
+  });
+});
