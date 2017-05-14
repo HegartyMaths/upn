@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Dan Keeble <dan@hegartymaths.com>",
   "license": "MIT",
-  "main": "./lib/Upn.js",
+  "main": "./lib/upn.js",
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
