@@ -1,6 +1,6 @@
 {
   "name": "upn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dan Keeble <dan@hegartymaths.com>",
   "license": "MIT",
   "main": "./lib/Upn.js",
