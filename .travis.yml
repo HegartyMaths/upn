@@ -2,5 +2,3 @@ language: node_js
 
 node_js:
   - node
-
-script: node_modules/.bin/jasmine
