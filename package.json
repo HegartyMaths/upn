@@ -1,0 +1,13 @@
+{
+  "name": "upn",
+  "version": "0.0.1",
+  "author": "Dan Keeble <dan@hegartymaths.com>",
+  "license": "MIT",
+  "main": "./lib/Upn.js",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "jasmine": "^2.6.0"
+  }
+}
