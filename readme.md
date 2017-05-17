@@ -6,11 +6,20 @@ UPN
 
 A simple tool for creating and validating UPNs.
 
+## Installation
+
+```bash
+yarn add upn
+```
+
 ## Validate a UPN
 
+```js
 upn.validate('upn');
-
+```
 
 ## Generate a random valid UPN
 
+```js
 upn.generate();
+```
